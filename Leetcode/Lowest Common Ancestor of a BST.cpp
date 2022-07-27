@@ -1,13 +1,15 @@
 // Link : https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 //Video : https://www.youtube.com/watch?v=cX_kPV_foZc&ab_channel=takeUforward
 
+#include<bits/stdc++.h>
+using namespace std;
 
-/*struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };*/
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+   TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
 class Solution {
 public:
